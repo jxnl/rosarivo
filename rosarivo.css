@@ -1,0 +1,67 @@
+.book{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+}
+
+.lpage, .rpage{
+    height:100vh;
+    display:block;
+}
+
+.canon{
+    width:  66.66666666%;
+    height: 66.66666666%;
+    margin-top: 11.111111111%;
+    margin-left: 11.111111111%;
+}
+
+@media(min-width : 900px){
+    .book{
+        height:100vh;
+    }
+
+    .lpage{
+        width: 50%;
+        display: inline-block;
+        left:0;
+        bottom: 0;
+        float: left;
+    }
+
+    .rpage{
+        width: 50%;
+        display: inline-block;
+        right:0;
+        bottom: 0;
+        float: right;
+    }
+
+    .rpage .canon{
+        margin-top:  11.111111111vh;
+        margin-left: 11.111111111%;
+    }
+
+    .lpage .canon{
+        margin-top:  11.111111111vh;
+        margin-left: 22.222222222%;
+    }
+}
+
+<!-- Styling -->
+*{
+    font-family: monospace;
+}
+
+.book{
+    background-color: #f1c40f;
+}
+
+.canon{
+    color: #2c3e50;
+    font-family: monospace;
+    font-size: 1em;
+}
+
+

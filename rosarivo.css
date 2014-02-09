@@ -17,7 +17,7 @@
     margin-left: 11.111111111%;
 }
 
-@media(min-width : 900px), (min-device-width:800px){
+@media only screen and (min-width : 900px),only screen and (min-device-width:800px){
     .book{
         height:100vh;
     }

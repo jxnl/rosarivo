@@ -6,8 +6,9 @@
 }
 
 .lpage, .rpage{
+    width: 100vw;
     height:100vh;
-    display:block;
+    display:inline-block;
 }
 
 .canon{
@@ -16,8 +17,8 @@
     margin-top: 11.111111111%;
     margin-left: 11.111111111%;
 }
-<!--
-@media only screen and (min-width : 900px),only screen and (min-device-width:800px){
+
+@media(min-width:900){
     .book{
         height:100vh;
     }
@@ -48,7 +49,6 @@
         margin-left: 22.222222222%;
     }
 }
--->
 
 <!-- Styling -->
 *{

@@ -49,6 +49,38 @@
     }
 }
 
+@media (min-width:900px){
+    .book{
+        height:100vh;
+    }
+
+    .lpage{
+        width: 50%;
+        display: inline-block;
+        left:0;
+        bottom: 0;
+        float: left;
+    }
+
+    .rpage{
+        width: 50%;
+        display: inline-block;
+        right:0;
+        bottom: 0;
+        float: right;
+    }
+
+    .rpage .canon{
+        margin-top:  11.111111111vh;
+        margin-left: 11.111111111%;
+    }
+
+    .lpage .canon{
+        margin-top:  11.111111111vh;
+        margin-left: 22.222222222%;
+    }
+}
+
 <!-- Styling -->
 *{
     font-family: monospace;
